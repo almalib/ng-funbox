@@ -1,0 +1,10 @@
+<main  [ngStyle]="{'background-image': 'url(' + getBgImage() + ')'}">
+  <div class="container">
+    <h1>{{getPageTitle()}}</h1>
+    <div class="card-container">
+      <div class="card-wrapper" *ngFor="let card of getCardContent()">
+        <s-funbox-cards [cardContent]='card'></s-funbox-cards>
+      </div>
+    </div>
+  </div>
+</main>
