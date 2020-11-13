@@ -1,6 +1,6 @@
 ## Тестовое задание от компании Funbox
 
-Стэк: Angular, веб-компоненты StencilJS.
+Стэк: Angular, веб-компоненты StencilJS. Ссылка на исходный код веб-компонентов https://github.com/almalib/s-funbox.
 
 ## Что реализовано
 
